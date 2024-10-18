@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    /*font-family: Arial, sans-serif;*/
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.selectors {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+select {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+canvas {
+    width: 80%;
+    max-width: 1200px;
+    margin-bottom: 40px; /* グラフの間にスペースを追加 */
+}
+
+.header-left a h1 {
+    font-weight: normal !important; /* !importantを使用して他のスタイルを上書き */
+}
+
